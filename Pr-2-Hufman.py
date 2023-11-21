@@ -42,10 +42,10 @@ def printNodes(node, val=''):
         print(f"{node.symbol} -> {newVal}")
 
 # characters for huffman tree
-chars = ['a', 'b', 'c', 'd', 'e', 'f']
+chars = ['a', 'b', 'c', 'd', 'e', 'f' , 'g']
 
 # frequency of characters
-freq = [ 5, 9, 12, 13, 16, 45]
+freq = [ 15, 9, 6, 10, 2, 3, 1]
 
 # list containing unused nodes
 nodes = []
